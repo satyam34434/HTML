@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #navbar {
+            background-color: white;
+            overflow: hidden;
+            padding: 10px;
+            color: white;
+
+        }
+
+        #navbar img {
+            float: left;
+            margin-right: 45%;
+        }
+
+        #navbar nav {
+            display: inline-block;
+            text-align: right;
+            padding: 0px;
+            height: auto;
+            margin-top: 20px;
+            position: absolute;
+        }
+
+        #navbar a {
+            text-decoration: none;
+            color: #000;
+            padding: 14px 16px;
+            text-align: center;
+        }
+/* 
+        .navitems li{
+            position: absolute;
+            align-items: center;
+            padding-top: 20px;
+
+        } */
+
+        #container-fluid {
+            background-image: linear-gradient(268deg, #3ab1eb, #076fec);
+            margin-top: 0px;
+        }
+
+        .jumbotron {
+            text-align: center;
+            background: none;
+            color: #fff;
+            margin-top: 0px;
+            height: 280px;
+        }
+
+        .jumbotron h2 {
+            font-family: 'Fredoka One', display;
+            font-size: 50px;
+            color: #FFFFFF !important;
+            line-height: 1.1em;
+            margin: 0px;
+            padding: 60px;
+            padding-bottom: 20px;
+        }
+
+        .jumbotron p {
+            font-size: 16px;
+            color: #fff;
+            font-family: Open Sans, Arial, sans-serif;
+        }
+
+        .btn-primary {
+            text-align: center;
+            font-family: Open Sans, Arial, sans-serif;
+            margin-top: 5px;
+            height: 40px;
+            width: 150px;
+            border-radius: 15px;
+            background-color: #076fec;
+            border: none;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- code for logo -->
+    <div id="navbar">
+        <div>
+            <img src="Collab.png" width="100" height="70" alt="Codevidhya" id="logo" data-height-percentage="54" data-actual-width="100" data-actual-height="70">
+        </div>
+        <div class="navitems">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about-us">About Us</a>
+            <a href="#discover">Discover</a>
+            <a href="#contact-us">Contact Us</a>
+            <a href="#login">Login</a>
+            <a href="#community">Community</a>
+        </nav>
+    </div>
+    </div>
+
+    <!-- code for project upload section -->
+    <div id="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h2>Student Projects</h2>
+                    <p>See what others your age are building.</p>
+                    <button type="button" class="btn btn-primary phoen-login-popup-open">Upload Your Project</button>
+                </div>
+            </div>
+            <!--project button end-->
+        </div>
+    </div>
+</body>
+</html>
